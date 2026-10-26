@@ -33,7 +33,7 @@ SHOTS = os.path.join(BASE, "screenshots")
 LOGO = os.path.join(BASE, "assets", "logo_infnet.png")
 
 ALUNO = "Everton da Rocha Silva"
-LINK_VIDEO = "https://drive.google.com/drive/folders/1iToH65ab0lIRCsZB90hC3C7416fyAaI6?usp=sharing"
+LINK_VIDEO = "https://drive.google.com/drive/folders/1Wji6zPlN0YUlsARWasucgYF2yxc5-NeX"
 REPO = "https://github.com/evertonrocha2/algorithms-big-o-analysis"
 CAPA = {
     "instituicao": "INSTITUTO INFNET",
