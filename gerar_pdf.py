@@ -483,6 +483,19 @@ def desenhar_capa(c, doc):
     texto(400, CAPA["trabalho"], "Times-Bold", 14)
     texto(428, CAPA["titulo"], "Times-Bold", 14)
     texto(550, f"Aluno: {ALUNO}")
+
+    def link(y_topo, rotulo, url):
+        texto(y_topo, rotulo, "Times-Bold", 11)
+        c.setFillColor(colors.blue)
+        texto(y_topo + 14, url, tamanho=10)
+        c.setFillColor(colors.black)
+        w = c.stringWidth(url, "Times-Roman", 10)
+        base = altura - y_topo - 14 - 10
+        c.line(meio - w / 2, base - 1.5, meio + w / 2, base - 1.5)
+        c.linkURL(url, (meio - w / 2, base - 3, meio + w / 2, base + 10), relative=0)
+
+    link(588, "Vídeo de apresentação:", LINK_VIDEO)
+    link(626, "Código-fonte:", REPO)
     texto(679, CAPA["cidade"])
     texto(695, CAPA["ano"])
 
