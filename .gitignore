@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.PDF
 *.pdf
+gerar_pdf.py
+gerar_prints.py
+assets/
+screenshots/

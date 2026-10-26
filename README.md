@@ -33,4 +33,4 @@ Os sorteios usam semente fixa (42), então a saída é sempre a mesma.
 | 13 | `ex13_comparacao_buscas.py` | Linear vs binária com testes |
 | 14 | `ex14_refatoracao.py` | Refatoração com teste de equivalência |
 
-Respostas escritas: [RESPOSTAS.md](RESPOSTAS.md). Os scripts `gerar_prints.py` e `gerar_pdf.py` montam o PDF de entrega (precisam de `pillow` e `reportlab`).
+Respostas escritas: [RESPOSTAS.md](RESPOSTAS.md).
